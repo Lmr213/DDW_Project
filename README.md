@@ -45,10 +45,6 @@ Justification: We wish to help the countries of the world find out if their vacc
 
 Row: Country
 
-Train with 18? Test with 7? Or is that too small?
-We have 27(26) countries, so train with 19(18) and test with 8
-Bulgaria rejected (Lack of target column)
-
 target column(s)
 number of new vaccinations in the following certain period
 7-day rolling average (8 Nov)
