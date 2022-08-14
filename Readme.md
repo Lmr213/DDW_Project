@@ -17,7 +17,7 @@ wfuzz
 ### test certain function on the website 
 ### Fuzzing Parameters In URLs
 #### where "file path" is a variable represents the full file path that in SecList folder that you want to use for testing
-#### And all these values parameter1, value1, parameter2, value2 based on the URL itself and at least one values be FUZZ
+#### And all these values parameter1, value1, parameter2, value2 based on the URL itself and at least one value should be FUZZ
 ```
 wfuzz -c -z file,"file path" -d "parameter1=value1&parameter2=value2" https://ascenda-hotel-booking.herokuapp.com/login
 ```
